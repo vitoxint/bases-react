@@ -1,16 +1,16 @@
-//import firebase from "firebase/app";
-import firebase from "firebase/compat/app"
+import firebase from "firebase/app";
+// import firebase from "firebase/compat/app"
 import "firebase/firestore"; // functions
 import "firebase/auth"; // authentication
 
 // config
 const config = {
-    apiKey: "AIzaSyCq4l8uGwDQcANQCGZhnARuAP-S6kLzFoU",
-    authDomain: "bases-react-nov-846d1.firebaseapp.com",
-    projectId: "bases-react-nov-846d1",
-    storageBucket: "bases-react-nov-846d1.appspot.com",
-    messagingSenderId: "196709008631",
-    appId: "1:196709008631:web:58bd61a117e80bc8b2bff2"
+  apiKey: "AIzaSyCq4l8uGwDQcANQCGZhnARuAP-S6kLzFoU",
+  authDomain: "bases-react-nov-846d1.firebaseapp.com",
+  projectId: "bases-react-nov-846d1",
+  storageBucket: "bases-react-nov-846d1.appspot.com",
+  messagingSenderId: "196709008631",
+  appId: "1:196709008631:web:58bd61a117e80bc8b2bff2"
 
 };
 
@@ -52,3 +52,33 @@ provider.setCustomParameters({ prompt: "select_account" });
 export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
 export default firebase;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // config
+const config = {
+  apiKey: "AIzaSyCq4l8uGwDQcANQCGZhnARuAP-S6kLzFoU",
+  authDomain: "bases-react-nov-846d1.firebaseapp.com",
+  projectId: "bases-react-nov-846d1",
+  storageBucket: "bases-react-nov-846d1.appspot.com",
+  messagingSenderId: "196709008631",
+  appId: "1:196709008631:web:58bd61a117e80bc8b2bff2"
+
+}; */
